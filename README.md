@@ -12,6 +12,12 @@
 
 This code implements a reverse shell using **Import Address Table (IAT) resolution** to evade static analysis detection. The technique dynamically loads required Windows APIs at runtime instead of importing them directly.
 
+## Compilation 
+
+```bash
+gcc -o Obf_ReverseShell.exe ReverseShell.c -lws2_32
+```
+
 ---
 
 ## Contact
